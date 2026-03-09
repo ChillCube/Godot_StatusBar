@@ -7,5 +7,10 @@ An addon that can be used to display custom status bars, like healthbars, xp bar
 
 A statusbar node that uses AnimatedSprite2D as a base
 
+### ⚙️ Inspector Variables
+| Property | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| **max_value** | `Variant` | `100; ## sets the max value the status bar can display` | A statusbar node that uses AnimatedSprite2D as a base |
+
 ---
 
