@@ -3,6 +3,12 @@ Generated: 2026-03-09
 
 An addon that can be used to display custom status bars, like healthbars, xp bars, etc in your godot game.
 
+### 🐧 Linux / MacOS
+To add this to your project, copy paste this command into terminal at the root of your project:
+```bash
+clone-gd-addon https://github.com/ChillCube/Godot_StatusBar.git
+```
+
 ## Class: StatusBar
 
 A statusbar node that uses AnimatedSprite2D as a base
