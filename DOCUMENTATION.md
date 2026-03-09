@@ -16,9 +16,9 @@ A statusbar node that uses AnimatedSprite2D as a base
 ### Signals
 | Signal | Arguments | Description |
 | :--- | :--- | :--- |
-| **status_bar_empty** | <small>`value : float<br>frame : int<br>percentage : float`</small> |  emitted if the status bar is empty. Returns 1: the current value, 2: the current frame, 3: the current percentage (0 = 0% and 1 = 100%) |
-| **status_bar_changed** | <small>`-`</small> |  emitted if the status bar changed |
-| **status_bar_full** | <small>`-`</small> |  emitted if the status bar is became full |
+| **status_bar_empty** | `value : float`<br>`frame : int`<br>`percentage : float` |  emitted if the status bar is empty. Returns 1: the current value, 2: the current frame, 3: the current percentage (0 = 0% and 1 = 100%) |
+| **status_bar_changed** | - |  emitted if the status bar changed |
+| **status_bar_full** | - |  emitted if the status bar is became full |
 
 ---
 
