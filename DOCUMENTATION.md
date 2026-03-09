@@ -3,6 +3,13 @@ Generated: 2026-03-09
 
 An addon that can be used to display custom status bars, like healthbars, xp bars, etc in your godot game.
 
+### 📦 Dependencies
+
+| Source | Reference | Repository |
+| :--- | :--- | :--- |
+
+---
+
 ## Class: StatusBar
 **Inherits:** [AnimatedSprite2D](https://docs.godotengine.org/en/stable/classes/class_animatedsprite2d.html)
 
