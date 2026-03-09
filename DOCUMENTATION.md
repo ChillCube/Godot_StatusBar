@@ -10,12 +10,6 @@ An addon that can be used to display custom status bars, like healthbars, xp bar
 
 A statusbar node that uses AnimatedSprite2D as a base
 
-### Properties
-| Property | Type | Default | Description |
-| :--- | :--- | :--- | :--- |
-| **max_value** | `Variant` | `100` | sets the max value the status bar can display |
-| **value** | `Variant` | `0` | sets the minimum value the status bar can display |
-
 ### Signals
 | Signal | Description |
 | :--- | :--- |
