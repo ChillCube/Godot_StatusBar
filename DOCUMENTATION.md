@@ -1,12 +1,12 @@
 # Godot_StatusBar API Reference
-Generated on: 2026-03-09
+Generated: 2026-03-09
 
 An addon that can be used to display custom status bars, like healthbars, xp bars, etc in your godot game.
 
 ### 📦 Dependencies
-| Addon | Repository |
-| :--- | :--- |
-| Godot_SmoothMovement | [Link](https://github.com/ChillCube/Godot_SmoothMovement) |
+| Class | Addon | Repository |
+| :--- | :--- | :--- |
+| [`SmoothMovement`](https://github.com/ChillCube/Godot_SmoothMovement/blob/main/DOCUMENTATION.md#class-smoothmovement) | Godot_SmoothMovement | [Repo](https://github.com/ChillCube/Godot_SmoothMovement) |
 
 ---
 
