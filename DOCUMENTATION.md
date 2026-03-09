@@ -10,15 +10,15 @@ A statusbar node that uses AnimatedSprite2D as a base
 ### Properties
 | Property | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
-| **max_value** | `Variant` | `100;` | sets the max value the status bar can display |
-| **value** | `Variant` | `0;` | sets the minimum value the status bar can display |
+| **max_value** | `Variant` | `100` | sets the max value the status bar can display |
+| **value** | `Variant` | `0` | sets the minimum value the status bar can display |
 
 ### Signals
-| Signal | Description |
-| :--- | :--- |
-| `status_bar_empty(value : float, frame : int, percentage : float)` |  emitted if the status bar is empty. Returns 1: the current value, 2: the current frame, 3: the current percentage (0 = 0% and 1 = 100%) |
-| `status_bar_changed` |  emitted if the status bar changed |
-| `status_bar_full` |  emitted if the status bar is became full |
+| Signal | Arguments | Description |
+| :--- | :--- | :--- |
+| **status_bar_empty** | `value : float, frame : int, percentage : float` |  emitted if the status bar is empty. Returns 1: the current value, 2: the current frame, 3: the current percentage (0 = 0% and 1 = 100%) |
+| **status_bar_changed** | `-` |  emitted if the status bar changed |
+| **status_bar_full** | `-` |  emitted if the status bar is became full |
 
 ---
 
