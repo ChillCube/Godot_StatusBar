@@ -6,6 +6,8 @@ An addon that can be used to display custom status bars, like healthbars, xp bar
 ---
 
 ## Class: StatusBar
+**Inherits:** `AnimatedSprite2D`
+
 A statusbar node that uses AnimatedSprite2D as a base
 
 ### Properties
