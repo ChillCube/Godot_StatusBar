@@ -1,3 +1,4 @@
+@icon("res://addons/Godot_StatusBar/icon_play_bar.png")
 ## A statusbar node that uses AnimatedSprite2D as a base
 extends AnimatedSprite2D
 class_name StatusBar
@@ -21,4 +22,3 @@ func _update(val : float = value) -> void:
 		value = 0;
 		emit_signal("status_bar_empty")
 	emit_signal("status_bar_changed", value, frame, value / max_value)
-
